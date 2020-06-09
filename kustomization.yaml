@@ -1,0 +1,15 @@
+
+namespace: my-ns
+
+resources:
+  - service.yaml
+  - deployment.yaml
+
+nameSuffix: -test
+
+commonLabels:
+  app: my-app
+
+# images:
+#   - name: nginx
+#     newTag: 1.14.2
